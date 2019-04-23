@@ -251,6 +251,9 @@ _My Versions_
 ``Truffle v5.0.3``
 
 ``webpack (web3) 4.28.1``
+``Your ERC-721 Token Name __StarToken__``
+``Your ERC-721 Token Symbol __SRT__``
+
 
 clone the git repository
 
@@ -388,6 +391,6 @@ __contract address__ on __https://rinkeby.etherscan.com__
 
 Now we will view the new star Token on <a href = "https://rinkeby.etherscan.io/token/0x2fa0a7a5bb7e33ee42901b8262be936a7cc2ef8f">Etherscan</a>
 
-![alt text](pics/toke_page.png "Token")
+![alt text](pics/token_page.png "Token")
 
 StarNotary smart contract is now deployed on Rinkeby test network.
