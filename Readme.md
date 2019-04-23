@@ -242,7 +242,7 @@ lookUp: async function (){
 
 _My Versions_
 
-``Token address c963a21eb4d6445bbac51a143477b898``
+``Token address 0x2fa0a7A5BB7e33ee42901b8262BE936a7CC2EF8f``
 
 ``openzeppelin-solidity v2.1.2``
 
@@ -377,12 +377,17 @@ __Note__ <a href = "https://faucet.rinkeby.io/">Rinkeby faucet</a> must be used 
 
 To view the DAPP point your browser to http://127.0.0.1:8080, make sure you selected a Rinkeby account in metaMask with Ether. Next create a star with a star name (string) and star ID (integer), then press create star. You should see a metaMask notification allowing you to confirm a contract interaction.
 
+![alt text](pics/Metamask_confirmation.png "Token")
+
 Contract will pend for a couple of seconds. Then you should see confirmation. Next look up the star you just created by entering the star ID.
 
-![alt text](pics/createToekn.png "Token")
+![alt text](pics/metamask_queue.png "Token")
 
-Now we will view the new star Token on <a href = "https://rinkeby.etherscan.io/token/0xaB0C8c151D124430231C8bb5D8B6DD5c2A4595D7">Etherscan</a>
+__contract address__ on __https://rinkeby.etherscan.com__ 
+![alt text](pics/rinkeby.etherScan.png "Token")
 
-![alt text](pics/Token.png "Token")
+Now we will view the new star Token on <a href = "https://rinkeby.etherscan.io/token/0x2fa0a7a5bb7e33ee42901b8262be936a7cc2ef8f">Etherscan</a>
+
+![alt text](pics/toke_page.png "Token")
 
 StarNotary smart contract is now deployed on Rinkeby test network.
