@@ -35,7 +35,7 @@ Contracts tokens are named "StarToken" with a symbol of "SRT".
 
 ```javascript
 string public constant name = "StarToken";
-string public constant symbol = "SRT";
+string public constant symbol = "STR";
 ```
 
 ---
@@ -123,7 +123,7 @@ it('can add the star name and star symbol properly', async() => {
     let starLookUp = await instance.lookUptokenIdToStarInfo(starId); //get star name
 
     assert.equal(ContractName,'StarToken');
-    assert.equal(ContractSymbol,'SRT');
+    assert.equal(ContractSymbol,'STR');
     assert.equal(starLookUp,'Mystar');
 });
 ```

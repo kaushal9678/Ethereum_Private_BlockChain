@@ -14,7 +14,7 @@ contract StarNotary is ERC721 {
     }
   
     string public constant name = "StarToken";
-    string public constant symbol = "SRT";
+    string public constant symbol = "STR";
     uint8 public constant decimals = 18;
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;

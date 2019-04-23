@@ -89,7 +89,7 @@ it("can add the star name and star symbol properly", async () => {
   let starLookUp = await instance.lookUptokenIdToStarInfo(starId);
 
   assert.equal(ContractName, "StarToken");
-  assert.equal(ContractSymbol, "SRT");
+  assert.equal(ContractSymbol, "STR");
   assert.equal(starLookUp, "Mystar");
 });
 
